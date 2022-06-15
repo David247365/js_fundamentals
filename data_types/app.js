@@ -4,6 +4,10 @@
 
 console.log("Hello World");
 
+let hi = "Hello";
+console.log(hi.length);
+console.log(hi[0]);
+
 // Numbers & Arithmetic Operations
 console.log(1 + 2);
 console.log(2 - 1);
@@ -25,3 +29,7 @@ let age;
 console.log(firstName, lastName, age);
 age = 26;
 console.log(firstName, lastName, age);
+
+// concatenation
+
+console.log(firstName + " " + lastName);
